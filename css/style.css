@@ -1,0 +1,16 @@
+body,
+html {
+  background-color: white;
+  position: relative;
+  margin: 0;
+  font-size: 100%;
+  padding: 0;
+}
+
+.nav-flex div ul li{
+  display: inline;
+}
+
+.nav-links {
+  list-style-type: none;
+}
