@@ -1,3 +1,9 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
 body,
 html {
     background-color: white;
@@ -5,7 +11,8 @@ html {
     margin: 0;
     font-size: 100%;
     padding: 0;
-    width: 1440px;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 .font {
@@ -87,7 +94,7 @@ html {
     border-radius: 11px;
     margin-left: 10px;
     border: white;
-    width: 340px;
+    width: 200px;
     height: 57.6px;
 }
 
@@ -95,5 +102,27 @@ html {
 /* position: relative;
 top: 20px; */
 margin-left: 5px;
+}
+
+.container-grid-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 716px 716px;
+}
+
+.grid-cont-1 {
+    background-color: #BC3428;
+}
+
+.grid-cont-2 {
+    background-color: #C7372B;
+}
+
+.grid-cont-3 {
+    background-color: #B13125;
+}
+
+.grid-cont-4 {
+    background-color: #BC3428;
 }
 
