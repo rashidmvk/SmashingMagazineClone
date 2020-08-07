@@ -15,21 +15,32 @@ html {
     color: rgb(255,255,255);
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
+
 .flex-list-item {
     display: flex;
 }
 
 .link-bckg {
     display: inline-flex;
-    background-color: rgb(211,58,44);
+    background-color: rgb(90,90,90);
     border-radius: 0.6875rem; /*11px*/ 
 }
 
-.item-bckg:hover {
-    background-color: rgb(169, 46, 35);
+.link-bckg:hover {
+    background-color: rgb(71,71,71);
 }
 
 .nav-link {
     padding: 0.475rem 0.90625rem; /*7.6px 14.5px*/
     font-size: 1.3125rem; /*21px*/
+}
+
+.more-bckg {
+    display: inline-flex;
+    background-color: rgb(71,71,71);
+    border-radius: 0.6875rem; /*11px*/ 
+}
+
+.more-bckg:hover {
+    background-color: rgb(71,71,71);
 }
