@@ -106,7 +106,8 @@ margin-left: 5px;
 
 .container-grid-1 {
     display: grid;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: 50% 50%;
     grid-template-rows: 716px 716px;
 }
 
@@ -126,3 +127,26 @@ margin-left: 5px;
     background-color: #BC3428;
 }
 
+.cont-algn {
+    padding: 70px;
+}
+
+.grid1-hdng {
+    font-size: 45px;
+}
+
+.fa-comment-alt {
+    margin: 10px 8px 0;
+    color: white;
+
+}
+
+.grid1-comment {
+    color: white;
+
+}
+
+.grid1-comment sup{
+    vertical-align: super;
+    font-size: smaller;
+}
