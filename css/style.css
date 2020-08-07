@@ -16,6 +16,18 @@ html {
     text-shadow: 1px 1px 1px rgba(0,0,0,.25);
 }
 
+.flex-nav {
+    display: flex;
+    width: 2500px;
+    height: 60px;
+    background-color: #D33A2E;
+}
+
+.nav-bar-img-1 img {
+    width: 65px;
+    height: auto;
+}
+
 .flex-list-item {
     display: flex;
 }
@@ -24,6 +36,7 @@ html {
     display: inline-flex;
     background-color: rgb(90,90,90);
     border-radius: 0.6875rem; /*11px*/ 
+    margin-right: 20px;
 }
 
 .link-bckg:hover {
@@ -44,3 +57,26 @@ html {
 .more-bckg:hover {
     background-color: rgb(71,71,71);
 }
+
+.nav-search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 11px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.nav-search-bar input {
+    border-radius: 11px;
+    margin-left: 10px;
+    border: white;
+    height: inherit;
+}
+
+.fa {
+position: relative;
+top: 20px;
+margin-left: 5px;
+}
+
