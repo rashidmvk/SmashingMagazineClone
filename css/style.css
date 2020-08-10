@@ -41,6 +41,7 @@ html {
 
 .flex-list-item {
     display: flex;
+    align-items: center;
 }
 
 .link-bckg {
@@ -60,6 +61,7 @@ html {
 }
 
 .more-bckg {
+    padding: 3px;
     display: inline-flex;
     background-color: rgb(169,46,35);
     border-radius: 11px;
@@ -91,62 +93,140 @@ html {
 }
 
 .nav-search-bar input {
+    font-size: 23px;
+    color: rgb(102,102,102);
     border-radius: 11px;
     margin-left: 10px;
     border: white;
-    width: 200px;
+    width: 350px;
     height: 57.6px;
 }
 
 .fa {
-/* position: relative;
-top: 20px; */
-margin-left: 5px;
+    /* position: relative;
+    top: 20px; */
+    margin-left: 5px;
+}
+
+.latest-articles {
+    z-index: 2;
+    position: absolute;
+    top: 149px;
+    right: 529px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+}
+
+.latest-articles h1 {
+    display: flex;
+    color: rgb(51,51,51);
+    background-color: rgb(255,255,255);
+    margin: 0 auto;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 8px 10px;
 }
 
 .container-grid-1 {
     display: grid;
     /* grid-template-columns: auto auto; */
     grid-template-columns: 50% 50%;
-    grid-template-rows: 716px 716px;
+    grid-template-rows: 716px 600px;
+    cursor: pointer;
 }
 
 .grid-cont-1 {
+    padding: 215px 70px 70px;
     background-color: #BC3428;
 }
 
 .grid-cont-2 {
+    padding: 215px 70px 70px;
     background-color: #C7372B;
 }
 
 .grid-cont-3 {
+    padding: 70px;
     background-color: #B13125;
 }
 
 .grid-cont-4 {
+    padding: 70px;
     background-color: #BC3428;
 }
 
-.cont-algn {
-    padding: 70px;
+.cont-author {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.grid1-img {
+    width: 82px;
+    border-radius: 10px;
+    border: 4px solid rgb(255,255,255);
+    transform: rotate(-10.5deg);
+    transition: transform 0.3s;
+}
+
+.grid1-img:hover {
+    transform: rotate(0deg);
+}
+
+.grid1-name {
+    font-size: 21px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+
+.grid1-name em {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 26px;
 }
 
 .grid1-hdng {
     font-size: 45px;
-}
-
-.fa-comment-alt {
-    margin: 10px 8px 0;
-    color: white;
-
+    line-height: 45px;
 }
 
 .grid1-comment {
     color: white;
-
+    margin-top: 12px;
 }
 
-.grid1-comment sup{
+.fa-comment-alt {
+    margin: 10px 8px 0 0;
+    color: white;
+}
+
+.grid1-comment {
+    color: white;
+    margin-top: 12px;
+}
+
+.hashtag {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.hashtag span {
+    margin: 0 22px 0 0;
+}
+
+.hashtag sup {
     vertical-align: super;
     font-size: smaller;
 }
+
+.hashtag strong {
+    font-weight: lighter;
+    color: black;
+}
+
+.grid1-arrow {
+    font-size: 47px;
+}
+
