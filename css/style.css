@@ -6,7 +6,6 @@
 
 body,
 html {
-    background-color: white;
     position: relative;
     margin: 0;
     font-size: 100%;
@@ -109,10 +108,8 @@ html {
 }
 
 .latest-articles {
-    z-index: 2;
-    position: absolute;
+    position: relative;
     top: 149px;
-    right: 529px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,8 +122,6 @@ html {
     color: rgb(51,51,51);
     background-color: rgb(255,255,255);
     margin: 0 auto;
-    margin-block-start: 0;
-    margin-block-end: 0;
     padding: 8px 10px;
 }
 
@@ -228,5 +223,31 @@ html {
 
 .grid1-arrow {
     font-size: 47px;
+}
+
+.container-flex-1 {
+    display: flex;
+}
+
+.container-flex-1 .flex-1{
+    background-color: #F6F3F2;
+    flex-direction: row;
+    width: 383px;
+    height: 587px;
+}
+.cf1-a {
+    color: #A9A8A7;
+}
+
+.cf1-b {
+    color:black;
+    text-decoration: underline;
+    font-weight: bold;
+    margin:10px 0px 10px 5px;
+}
+
+.cf1-c {
+    font-weight: 100;
+
 }
 
