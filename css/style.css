@@ -501,10 +501,14 @@ html {
 } */
 
 .container-independent-3 {
-    width: 94%;
-    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    padding-left: 30px;
     display: flex;
     font-family: Elena;
+    padding-bottom: 90px;
+    padding-right: 40px;
+    border: 1px solid white;
 }
 
 .ci3-img {
@@ -546,4 +550,15 @@ html {
     color: rgb(51,51,51);
     font-weight: lighter;
     line-height: 30px;
+}
+
+.grid-ind-1 {
+    background-color: white;
+    padding-top: 60px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 660px 660px;
+    grid-template-rows: 250px 250px;
+    column-gap: 30px;
+    row-gap: 60px;
 }
