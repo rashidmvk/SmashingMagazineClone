@@ -507,7 +507,7 @@ h4 {
 .container-independent-3 {
   background-color: white;
   width: 100%;
-  padding-left: 80px;
+  padding-left: 50px;
   display: flex;
   font-family: Elena;
   padding-bottom: 90px;
@@ -559,7 +559,7 @@ h4 {
 .grid-ind-1 {
   background-color: white;
   padding-top: 60px;
-  padding-left: 30px;
+  padding-left: 50px;
   display: grid;
   grid-template-columns: 550px 550px;
   grid-template-rows: 250px 250px;
@@ -635,7 +635,6 @@ h4 {
   display: flex;
   flex-direction: column;
   background-color: #323232;
-  width: 1400px;
   height: 350px;
 }
 
@@ -667,17 +666,19 @@ h4 {
 }
 
 .cont-ind-5-s4 {
+    display: inline-flex;
     color: #646464;
     margin-left: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
     line-height: 30px;
     background-color: white;
     border-radius: 11px;
-    width: 300px;
     font-size: 22px;
     text-align: center;
     font-weight: bolder;
+}
+
+.cont-ind-5-s4 span {
+    padding: 20px 27px;   
 }
 
 .container-grid-3 {
