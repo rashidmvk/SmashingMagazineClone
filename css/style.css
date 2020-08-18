@@ -815,9 +815,16 @@ h4 {
 /* } */
 
 .grd3-itm4-inp {
-  border-radius: 11px;
+  display: flex;
 }
 
 .grd3-itm4-inp input {
+  width: 200px;
+  height: 56px;
+  border-radius: 11px solid black;
+}
 
+.grd3-itm4-inp div {
+  width: 70px;
+  background-color: rgb(88,88,88);
 }
