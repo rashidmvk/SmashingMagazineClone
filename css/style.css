@@ -712,12 +712,14 @@ h4 {
 
 .container-grid-3 {
   padding-top: 90px;
+
   margin-left: 50px;
-  margin-right: 120px;
+  margin-right: 50px;
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  grid-template-rows: 450px;
+  grid-template-columns: 50% 50% ;
+  grid-template-rows: 450px 800px;
   column-gap: 30px;
+  row-gap: 30px;
     /* background-color: rgb(255, 255, 255); */
 }
 
@@ -786,4 +788,17 @@ h4 {
   margin: 0 auto;
 }
 
+.grid3-item4 {
+  background-color: #fff;
+}
 
+.grid3-item4 img {
+  width: 550px;
+  height: 320px;
+  filter: grayscale(100%);
+}
+
+.grid3-item4 div {
+  padding-bottom: 40px;
+  margin-right: 50px;
+}
