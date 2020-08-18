@@ -717,7 +717,7 @@ h4 {
   margin-right: 50px;
   display: grid;
   grid-template-columns: 50% 50% ;
-  grid-template-rows: 450px 800px;
+  grid-template-rows: 490px 750px;
   column-gap: 30px;
   row-gap: 30px;
     /* background-color: rgb(255, 255, 255); */
@@ -740,6 +740,7 @@ h4 {
   font-size: 35.5px;   
   line-height: 45px; 
   margin-top: 5px;
+  margin-right: 257px;
 }
 
 .grd-color1 {
@@ -758,6 +759,7 @@ h4 {
   font-size: 17px; 
   line-height: 35px;
   margin-top: 30px;
+  margin-right: 88px;
 }
 
 .grd3-bttn {
@@ -815,21 +817,47 @@ h4 {
 /* } */
 
 .grd3-itm4-inp {
+  display: flex;
   background-color:white;
-  width: 370px;
-  height:70px;
-  padding: 14px;
-  border-radius: 18px;
+  /* width: 370px;
+  height:70px; */
+  border-radius: 11px 11px 11px 11px;
+  box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.25), 1px 1px 3px rgb(20, 20, 20);
+  margin-top: 25px;
 }
 
 .grd3-itm4-inp input {
-  width: 250px;
-  height: 50px;
-  border-radius: 8px 8px;
+  margin: 10px 10px 10px 20px ;
+  width: 270px;
+  height: 34px;
   border: none;
 }
 
 .grd3-itm4-inp div {
-  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px; 
+  width: 150px;
   background-color: rgb(88,88,88);
+  border-radius: 0 11px 11px 0;
+  text-shadow: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.itm4-offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px 3px 15px;
+  margin-top: 27px;
+  background-color: rgb(110,110,110);
+  border-radius: 11px;
+}
+
+.itm4-offer-txt {
+  font-family: Elena;
+  margin-bottom: 7px;
 }
