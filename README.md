@@ -10,45 +10,24 @@ Additional description about the project and its features.
 ## Built With
 
 - HTML & CSS,
-- frameworks,
-- Icons tags
+- Embedded images
+- Display grid
+- Display flex
+- 
 
 ## Live Demo
-
+Pending issue****
 [Live Demo Link](https://rawcdn.githack.com/Huemac-Alfredo/Forms/71fc8799c40518d122f8cf6edecb2e2ee12e0a27/index.html)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
-👤 **Author1**
+👤 **Rashid Mvk**
 
 - Github: [@githubhandle](https://github.com/rashidmvk)
 - Twitter: [@twitterhandle](www.twitter.com/rashidnm)
 - Linkedin: [linkedin](https://www.linkedin.com/in/rashidmvk/)
 
-👤 **Author2**
+👤 **Alfredo Córdova**
 
 - Github: [@githubhandle](https://github.com/Huemac-Alfredo)
 - Twitter: [@twitterhandle](https://twitter.com/AlfredoHuemac)
@@ -58,7 +37,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/rashidmvk/SmashingMagazineClone/issues).
 
 ## Show your support
 
