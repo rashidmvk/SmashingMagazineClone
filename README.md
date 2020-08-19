@@ -3,7 +3,7 @@
 >THIS RESEMBLES THE EXACT CLONE OF THE SMASHING MAGAZINE WEBSITE WITHOUT USING ANY JAVASCRIPT. THE EXPERIENCE GOT WORKING FOR THIS PROJECT IMPARTS A GREAT LEARNING IN UI/UX DESIGN. THE WAY THEY DESIGNED THE WEBSITE MAKE THEM PULL TOWARDS TJE MASS READING OF THEIR CONTENT. 
 
 
-![screenshot](.)
+![screenshot](https://github.com/rashidmvk/SmashingMagazineClone/blob/feature/Images/Teardown_screenshot.PNG)
 
 Additional description about the project and its features.
 
