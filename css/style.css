@@ -48,6 +48,7 @@ html {
 .nav-bar-img-1 img {
   width: 65px;
   height: auto;
+  filter: grayscale(100%);
 }
 
 .flex-list-item {
@@ -176,6 +177,7 @@ html {
   transform: rotate(-10.5deg);
   transition: transform 0.3s;
   transform-origin: left top;
+  filter: grayscale(100%);
 }
 
 .grid-img:hover {
