@@ -407,7 +407,7 @@ h4 {
   text-decoration: none;
   padding: 15px 20px;
   font-size: 21px;
-  font-weight: 1000;
+  font-weight: 900;
   color: rgb(112, 112, 112);
 }
 
@@ -487,7 +487,7 @@ h4 {
   text-decoration: none;
   padding: 18.4px 24.6px;
   font-size: 24.6px;
-  font-weight: 1000;
+  font-weight: 900;
   color: rgb(112, 112, 112);
   text-shadow: none;
 }
@@ -616,7 +616,7 @@ h4 {
 .sp-pfolio-2 {
   color: #8f8f8f;
   font-size: 15px;
-  font-weight: 100px;
+  font-weight: lighter;
 }
 
 .pfolio-3 {
