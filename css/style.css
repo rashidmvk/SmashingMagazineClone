@@ -21,10 +21,6 @@ html {
   font-family: "Balsamiq Sans", cursive;
 }
 
-.font-elena {
-  font-family: Elena;
-}
-
 .headings {
   color: rgb(255, 255, 255);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -101,7 +97,6 @@ html {
   border-radius: 11px;
   background-color: white;
   margin-left: 5px;
-  /* margin-top: 5px; */
 }
 
 .nav-search-bar input {
@@ -123,7 +118,7 @@ html {
 .latest-articles {
   position: absolute;
   top: 149px;
-  left: 33.443%; /*481.58px;*/
+  left: 33.443%;
   display: flex;
   flex-direction: column;
   font-size: 21px;
@@ -139,7 +134,6 @@ html {
 
 .container-grid-1 {
   display: grid;
-  /* grid-template-columns: auto auto; */
   grid-template-columns: 50% 50%;
   grid-template-rows: 716px 600px;
   cursor: pointer;
@@ -218,11 +212,6 @@ html {
   color: white;
 }
 
-.grid1-comment {
-  color: white;
-  margin-top: 12px;
-}
-
 .hashtag {
   color: white;
   margin-top: 60px;
@@ -273,14 +262,12 @@ html {
 
 .cf1-a {
   color: rgb(102, 102, 102);
-  font-family: Elena;
   font-size: 12px;
   margin-bottom: 12px;
 }
 
 .cf1-b {
   color: rgb(17, 17, 17);
-  /* text-decoration: underline; */
   border-bottom: 1px solid rgb(17, 17, 17);
   font-size: 27px;
 }
@@ -296,7 +283,6 @@ html {
 }
 
 .cf1-d {
-  font-family: Elena;
   color: rgb(86, 86, 85);
   font-size: 22px;
   line-height: 32px;
@@ -309,8 +295,6 @@ html {
   width: 120px;
   height: 120px;
   position: absolute;
-  bottom: 0px;
-  left: 0px;
   font-size: 30px;
   background-color: transparent;
   color: rgb(90, 90, 90);
@@ -329,15 +313,10 @@ html {
   text-align: center;
   align-items: center;
   color: rgb(255, 255, 255);
-  width: 42.875rem; /* 686px;*/
+  width: 42.875rem;
   height: 636px;
   background-color: rgb(90, 90, 90);
   border-radius: 11px;
-}
-
-.cf-cat-box h2,
-h4 {
-  font-family: Elena;
 }
 
 .cf-cat-box a {
@@ -351,15 +330,10 @@ h4 {
   text-align: center;
   align-items: center;
   color: rgb(255, 255, 255);
-  width: 80rem; /* 686px;*/
+  width: 80rem;
   height: 636px;
   background-color: rgb(90, 90, 90);
   border-radius: 11px;
-}
-
-.cf-cat-box2 h2,
-h4 {
-  font-family: Elena;
 }
 
 .cf-cat-box2 img {
@@ -371,7 +345,6 @@ h4 {
 }
 
 .catbox-img {
-  width: 230px;
   width: 230px;
   margin-bottom: 40px;
   filter: grayscale(100%);
@@ -395,6 +368,11 @@ h4 {
   margin-bottom: 32px;
 }
 
+.shipping a {
+  font-size: 14.9654px;
+  text-decoration: none;
+}
+
 .catbox-bttn {
   display: inline-flex;
   background-color: rgb(255, 255, 255);
@@ -409,6 +387,15 @@ h4 {
   font-size: 21px;
   font-weight: 900;
   color: rgb(112, 112, 112);
+}
+
+.ci2-bttn a {
+  text-decoration: none;
+  padding: 18.4px 24.6px;
+  font-size: 24.6px;
+  font-weight: 900;
+  color: rgb(112, 112, 112);
+  text-shadow: none;
 }
 
 .catbox-bttn a:hover {
@@ -430,7 +417,6 @@ h4 {
 }
 
 .ci-msg {
-  font-family: Elena;
   font-size: 15.5px;
   color: rgb(51, 51, 51);
   padding-bottom: 8px;
@@ -443,22 +429,17 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(
-    to bottom,
-    rgb(100, 100, 100),
-    rgb(132, 132, 132)
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(100, 100, 100),
+      rgb(132, 132, 132)
+    );
   padding: 70px 300px;
 }
 
 .shipping {
   font-size: 16.6px;
-  font-family: Elena;
-}
-
-.shipping a {
-  font-size: 14.9654px;
-  text-decoration: none;
 }
 
 .ci2-title {
@@ -468,7 +449,6 @@ h4 {
 }
 
 .ci2-story {
-  font-family: Elena;
   font-size: 25.8px;
   font-weight: lighter;
   padding: 0 35px;
@@ -481,15 +461,6 @@ h4 {
   background-color: rgb(255, 255, 255);
   border-radius: 11px;
   margin-bottom: 50px;
-}
-
-.ci2-bttn a {
-  text-decoration: none;
-  padding: 18.4px 24.6px;
-  font-size: 24.6px;
-  font-weight: 900;
-  color: rgb(112, 112, 112);
-  text-shadow: none;
 }
 
 .ci2-bttn a:hover {
@@ -516,7 +487,6 @@ h4 {
   width: 100%;
   padding-left: 50px;
   display: flex;
-  font-family: Elena;
   padding-bottom: 90px;
   padding-right: 40px;
   border: 1px solid white;
@@ -549,6 +519,7 @@ h4 {
 .ci3-text {
   margin-left: 60px;
 }
+
 .ci3-text h2 {
   font-size: 18.5px;
   margin: 50px 0 30px 0;
@@ -598,7 +569,7 @@ h4 {
 }
 
 .pfolio-1 {
-  color: #666666;
+  color: #666;
   font-weight: bold;
   font-size: 19px;
 }
@@ -625,17 +596,13 @@ h4 {
 }
 
 .container-independent-4 {
-  font-family: Elena;
   background-color: white;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .sp-ind-cont-4 {
   border-bottom: 5px solid rgb(90, 90, 90);
-}
-
-.container-independent-4 {
-  padding-bottom: 60px;
 }
 
 .container-independent-5 {
@@ -644,7 +611,6 @@ h4 {
   background-color: #323232;
   padding-right: 77.5px;
   height: 350px;
-
 }
 
 .ind5-flex {
@@ -696,74 +662,70 @@ h4 {
   font-size: 22px;
   text-align: center;
   font-weight: bolder;
-    /* margin-bottom: 30px; */
 }
 
 .cont-ind-5-s4 span {
-    padding: 20px 27px;   
+  padding: 20px 27px;
 }
 
 .cont-ind-5-s5 {
-    filter: grayscale(100%);
-    float: right;
-    width: 216px;
-    height: 333px;
-    transform: rotate(-10.5deg);
-    transition: transform 0.3s;
-    transform-origin: left top;
+  filter: grayscale(100%);
+  float: right;
+  width: 216px;
+  height: 333px;
+  transform: rotate(-10.5deg);
+  transition: transform 0.3s;
+  transform-origin: left top;
 }
 
 .cont-ind-5-s5:hover {
-    transform: rotate(0deg);
-  }
+  transform: rotate(0deg);
+}
 
 .container-grid-3 {
   padding-top: 90px;
-
   margin-left: 50px;
   margin-right: 50px;
   display: grid;
-  grid-template-columns: 50% 50% ;
+  grid-template-columns: 50% 50%;
   grid-template-rows: 490px 750px;
   column-gap: 30px;
   row-gap: 30px;
-    /* background-color: rgb(255, 255, 255); */
 }
 
 .grid3-item {
   background-color: rgb(255, 255, 255);
   padding: 35px;
   border-radius: 11px;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
-  color: rgb(51,51,51);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+  color: rgb(51, 51, 51);
 }
 
 .grd3-itm-guide {
   font-size: 14.5px;
-  font-family: Elena;
 }
 
 .grd3-itm-title {
-  font-size: 35.5px;   
-  line-height: 45px; 
+  font-size: 35.5px;
+  line-height: 45px;
   margin-top: 5px;
   margin-right: 257px;
 }
 
 .grd-color1 {
-  color: rgb(134,134,134);
+  color: rgb(134, 134, 134);
 }
 
 .grd-color2 {
-  color: rgb(119,119,119);
+  color: rgb(119, 119, 119);
 }
 
 .grd-color3 {
-  color: rgb(65,65,65);  
+  color: rgb(65, 65, 65);
 }
 
 .grd3-p {
-  font-size: 17px; 
+  font-size: 17px;
   line-height: 35px;
   margin-top: 30px;
   margin-right: 88px;
@@ -779,15 +741,15 @@ h4 {
 }
 
 .bttn-bckg1 {
-  background-color: rgb(134,134,134);
+  background-color: rgb(134, 134, 134);
 }
 
 .bttn-bckg2 {
-  background-color: rgb(119,119,119);  
+  background-color: rgb(119, 119, 119);
 }
 
 .bttn-bckg3 {
-  background-color: rgb(65,65,65);    
+  background-color: rgb(65, 65, 65);
 }
 
 .grd3-bttn span {
@@ -799,13 +761,18 @@ h4 {
 
 .grid3-item4 {
   position: relative;
-  display: flex ;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  background: linear-gradient(to bottom, rgb(100,100,100), rgb(131,131,131));
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(100, 100, 100),
+      rgb(131, 131, 131)
+    );
   padding: 35px;
   border-radius: 11px;
-  box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
 }
 
 .grid3-img {
@@ -814,27 +781,16 @@ h4 {
   filter: grayscale(100%);
 }
 
-/* .grd3-itm4-text {
-  display: block;
-  position: absolute;
-  top: 380px;
-  left: 35px;    */
-  /* padding-bottom: 40px;
-  margin-right: 50px; */
-/* } */
-
 .grd3-itm4-inp {
   display: flex;
-  background-color:white;
-  /* width: 370px;
-  height:70px; */
+  background-color: white;
   border-radius: 11px 11px 11px 11px;
-  box-shadow:  1px 1px 10px rgba(0, 0, 0, 0.25), 1px 1px 3px rgb(20, 20, 20);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25), 1px 1px 3px rgb(20, 20, 20);
   margin-top: 25px;
 }
 
 .grd3-itm4-inp input {
-  margin: 10px 10px 10px 20px ;
+  margin: 10px 10px 10px 20px;
   width: 270px;
   height: 34px;
   border: none;
@@ -844,9 +800,9 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 54px; 
+  height: 54px;
   width: 150px;
-  background-color: rgb(88,88,88);
+  background-color: rgb(88, 88, 88);
   border-radius: 0 11px 11px 0;
   text-shadow: none;
   font-weight: bolder;
@@ -860,22 +816,20 @@ h4 {
   align-items: center;
   padding: 10px 15px 3px 15px;
   margin-top: 27px;
-  background-color: rgb(110,110,110);
+  background-color: rgb(110, 110, 110);
   border-radius: 11px;
 }
 
 .itm4-offer-txt {
-  font-family: Elena;
   margin-bottom: 7px;
 }
 
 .ft-algn {
   position: relative;
-  font-family: Elena;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(90,90,90);
+  background-color: rgb(90, 90, 90);
   color: white;
   padding-bottom: 45px;
 }
@@ -913,7 +867,7 @@ h4 {
   top: 2px;
   right: 5px;
   font-size: 25px;
-  color: rgb(50,50,50);
+  color: rgb(50, 50, 50);
 }
 
 .ft-legend {
@@ -945,5 +899,3 @@ h4 {
   filter: grayscale(100%);
   width: 170px;
 }
-
-
