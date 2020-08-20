@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/rashidmvk/SmashingMagazineClone/tree/feature)
+[Live Demo Link](https://raw.githack.com/rashidmvk/SmashingMagazineClone/feature/index.html)
 
 ## Authors
 
