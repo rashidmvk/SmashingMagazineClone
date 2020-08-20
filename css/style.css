@@ -110,8 +110,6 @@ html {
 }
 
 .fa {
-  /* position: relative;
-    top: 20px; */
   margin-left: 5px;
 }
 
@@ -474,14 +472,6 @@ html {
   filter: grayscale(100%);
 }
 
-/* .container-grid-2 {
-    width: 94%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(auto, 8);
-} */
-
 .container-independent-3 {
   background-color: white;
   width: 100%;
@@ -509,13 +499,6 @@ html {
   transform: rotate(0deg);
 }
 
-/* .grid2-cont-larger {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    font-family: Elena;
-} */
 .ci3-text {
   margin-left: 60px;
 }
