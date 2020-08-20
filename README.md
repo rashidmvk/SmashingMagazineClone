@@ -13,7 +13,7 @@ Additional description about the project and its features.
 - Embedded images
 - Display grid
 - Display flex
-- 
+
 
 ## Live Demo
 
