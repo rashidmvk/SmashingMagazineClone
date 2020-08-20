@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 Pending issue****
-[Live Demo Link](https://rawcdn.githack.com/Huemac-Alfredo/Forms/71fc8799c40518d122f8cf6edecb2e2ee12e0a27/index.html)
+[Live Demo Link](https://raw.githack.com/rashidmvk/SmashingMagazineClone/tree/feature)
 
 ## Authors
 
